@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
     );
 
     // LANGSUNG KE BERANDA
-    window.location.href = "beranda.html";
+    window.location.href = "html/beranda.html";
   });
 
   console.log("Login KantinKita siap!");

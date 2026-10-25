@@ -7,17 +7,18 @@
 ========================================= */
 
 // DAFTAR HALAMAN
+// DAFTAR HALAMAN (Ubah menjadi seperti ini):
 const pages = {
-  login: "index.html",
-  beranda: "beranda.html",
-  cari: "cari.html",
-  menu: "menu-stan.html",
-  keranjang: "keranjang.html",
-  bayar: "pembayaran.html",
-  pembayaran: "pembayaran.html",
-  status: "status.html",
-  dasbor: "dasbor-stan.html",
-  laporan: "laporan.html"
+  login: "index.html",            // Tetap karena index.html ada di root
+  beranda: "html/beranda.html",   // Tambahkan html/
+  cari: "html/cari.html",         // Tambahkan html/
+  menu: "html/menu-stan.html",     // Tambahkan html/
+  keranjang: "html/keranjang.html",// Tambahkan html/
+  bayar: "html/pembayaran.html",  // Tambahkan html/
+  pembayaran: "html/pembayaran.html",
+  status: "html/status.html",
+  dasbor: "html/dasbor-stan.html",
+  laporan: "html/laporan.html"
 };
 
 // FUNGSI PINDAH HALAMAN
