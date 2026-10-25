@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let allMenu = [];
 
   // 1. Fetch Data
-  fetch('data-menu.json')
+  fetch('../data-menu.json')
     .then(res => res.json())
     .then(data => {
       allMenu = data;

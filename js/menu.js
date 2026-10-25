@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 3. Fetch Data dari JSON
-  fetch('data-menu.json')
+  fetch('../data-menu.json')
     .then(response => {
       if (!response.ok) throw new Error('Gagal mengambil data menu');
       return response.json();
